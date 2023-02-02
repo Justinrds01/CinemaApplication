@@ -30,7 +30,7 @@ namespace BioscoopCasus.Entities
             return IsPremium;
         }
 
-        public double GetPrice()
+        public decimal GetPrice()
         {
             return MovieScreening.GetPricePerSeat();
         }

@@ -1,27 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Repositories\\Casus-Opdracht-Bioscoop\\BioscoopCasus\\BioscoopTests\\BioscoopTests.csproj": {}
+    "C:\\Users\\diren\\OneDrive\\Bureaublad\\Jaar3\\SOA3\\CinemaApplication\\BioscoopTests\\BioscoopTests.csproj": {}
   },
   "projects": {
-    "C:\\Repositories\\Casus-Opdracht-Bioscoop\\BioscoopCasus\\BioscoopCasus\\BioscoopCasus.csproj": {
+    "C:\\Users\\diren\\OneDrive\\Bureaublad\\Jaar3\\SOA3\\CinemaApplication\\BioscoopCasus\\BioscoopCasus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repositories\\Casus-Opdracht-Bioscoop\\BioscoopCasus\\BioscoopCasus\\BioscoopCasus.csproj",
+        "projectUniqueName": "C:\\Users\\diren\\OneDrive\\Bureaublad\\Jaar3\\SOA3\\CinemaApplication\\BioscoopCasus\\BioscoopCasus.csproj",
         "projectName": "BioscoopCasus",
-        "projectPath": "C:\\Repositories\\Casus-Opdracht-Bioscoop\\BioscoopCasus\\BioscoopCasus\\BioscoopCasus.csproj",
-        "packagesPath": "C:\\Users\\Justin\\.nuget\\packages\\",
-        "outputPath": "C:\\Repositories\\Casus-Opdracht-Bioscoop\\BioscoopCasus\\BioscoopCasus\\obj\\",
+        "projectPath": "C:\\Users\\diren\\OneDrive\\Bureaublad\\Jaar3\\SOA3\\CinemaApplication\\BioscoopCasus\\BioscoopCasus.csproj",
+        "packagesPath": "C:\\Users\\diren\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\diren\\OneDrive\\Bureaublad\\Jaar3\\SOA3\\CinemaApplication\\BioscoopCasus\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Justin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\diren\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -61,36 +64,39 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Repositories\\Casus-Opdracht-Bioscoop\\BioscoopCasus\\BioscoopTests\\BioscoopTests.csproj": {
+    "C:\\Users\\diren\\OneDrive\\Bureaublad\\Jaar3\\SOA3\\CinemaApplication\\BioscoopTests\\BioscoopTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repositories\\Casus-Opdracht-Bioscoop\\BioscoopCasus\\BioscoopTests\\BioscoopTests.csproj",
+        "projectUniqueName": "C:\\Users\\diren\\OneDrive\\Bureaublad\\Jaar3\\SOA3\\CinemaApplication\\BioscoopTests\\BioscoopTests.csproj",
         "projectName": "BioscoopTests",
-        "projectPath": "C:\\Repositories\\Casus-Opdracht-Bioscoop\\BioscoopCasus\\BioscoopTests\\BioscoopTests.csproj",
-        "packagesPath": "C:\\Users\\Justin\\.nuget\\packages\\",
-        "outputPath": "C:\\Repositories\\Casus-Opdracht-Bioscoop\\BioscoopCasus\\BioscoopTests\\obj\\",
+        "projectPath": "C:\\Users\\diren\\OneDrive\\Bureaublad\\Jaar3\\SOA3\\CinemaApplication\\BioscoopTests\\BioscoopTests.csproj",
+        "packagesPath": "C:\\Users\\diren\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\diren\\OneDrive\\Bureaublad\\Jaar3\\SOA3\\CinemaApplication\\BioscoopTests\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Justin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\diren\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Repositories\\Casus-Opdracht-Bioscoop\\BioscoopCasus\\BioscoopCasus\\BioscoopCasus.csproj": {
-                "projectPath": "C:\\Repositories\\Casus-Opdracht-Bioscoop\\BioscoopCasus\\BioscoopCasus\\BioscoopCasus.csproj"
+              "C:\\Users\\diren\\OneDrive\\Bureaublad\\Jaar3\\SOA3\\CinemaApplication\\BioscoopCasus\\BioscoopCasus.csproj": {
+                "projectPath": "C:\\Users\\diren\\OneDrive\\Bureaublad\\Jaar3\\SOA3\\CinemaApplication\\BioscoopCasus\\BioscoopCasus.csproj"
               }
             }
           }
@@ -142,7 +148,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

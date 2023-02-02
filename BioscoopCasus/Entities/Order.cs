@@ -28,23 +28,23 @@ namespace BioscoopCasus.Entities
             MovieTickets.Add(ticket);
         }
 
-        public double CalculatePrice()
+        public decimal CalculatePrice()
         {
-            double sum = 0;
+            decimal sum = 0;
             bool isEven = true;
             bool isWeekDay = false;
             foreach (MovieTicket movieTicket in MovieTickets) {
-                double price = movieTicket.GetPrice();
+                decimal price = movieTicket.GetPrice();
                 isWeekDay = IsWeekDay(movieTicket.GetDateAndtime());
                 
                 if (movieTicket.IsPremiumTicket()) price += IsStudentOrder ? 2 : 3;
-                if (!isEven && (IsStudentOrder || isWeekDay)) price = 0;
+                if (!isEven && (IsStudentOrder || !isWeekDay)) price = 0;
                 
                 sum += price;
                 isEven = !isEven;
             }
-            if (!IsStudentOrder && MovieTickets.Count() > 6 && !isWeekDay) {
-                sum *= 0.9;
+            if (!IsStudentOrder && MovieTickets.Count() >= 6 && !isWeekDay) {
+                sum *= 0.9m;
             }
             return sum;
         }

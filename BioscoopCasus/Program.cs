@@ -1,7 +1,7 @@
 ﻿using BioscoopCasus.Entities;
 
 Movie movie = new("The Matrix");
-MovieScreening screening = new(DateTime.Now, 10.0);
+MovieScreening screening = new(DateTime.Now, 10.0m);
 MovieTicket ticket1 = new(1, 1, true, screening);
 MovieTicket ticket2 = new(1, 2, true, screening);
 MovieTicket ticket3 = new(1, 3, true, screening);
