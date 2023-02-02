@@ -1,0 +1,21 @@
+Order number: 1
+Row, Seat
+ 1, 1
+ Premium: True
+Row, Seat
+ 1, 2
+ Premium: True
+Row, Seat
+ 1, 3
+ Premium: True
+Row, Seat
+ 1, 4
+ Premium: True
+Row, Seat
+ 1, 5
+ Premium: True
+Row, Seat
+ 1, 6
+ Premium: True
+---------------
+Total Cost: 36
