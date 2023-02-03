@@ -64,10 +64,7 @@ namespace BioscoopCasus.Entities
                     MovieTickets.ForEach(x => stringBuilder.AppendLine(x.ToString()));
                     stringBuilder.AppendLine("---------------");
                     stringBuilder.AppendLine("Total Cost: " + CalculatePrice());
-                    using (StreamWriter writer = new StreamWriter("../../../Files/PlainText.txt"))
-                    {
-                        await writer.WriteAsync(stringBuilder.ToString());
-                    }
+                    using (StreamWriter writer = new("../../../Files/PlainText.txt")) await writer.WriteAsync(stringBuilder.ToString());
                     break;
                 case TicketExportFormat.JSON:
                     string json = JsonConvert.SerializeObject(this);
