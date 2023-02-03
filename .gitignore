@@ -401,4 +401,4 @@ FodyWeavers.xsd
 .vscode
 
 # Generated files
-**/Files/
+**/Files/*
