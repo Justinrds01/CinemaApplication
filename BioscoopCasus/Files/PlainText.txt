@@ -18,4 +18,4 @@ Row, Seat
  1, 6
  Premium: True
 ---------------
-Total Cost: 36,0
+Total Cost: 36.0

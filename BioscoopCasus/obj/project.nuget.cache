@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "A7UzliA8uyGrlCm0BOpp4gBG1auz+xwcLKOFjWd570lHTwU2JUFWl/nugkYZZ89dy5klSRP9SuvbEnkSlGnWrA==",
+  "dgSpecHash": "vTs3Slm5oBTnoGs9X/rWjZ3uoKpEZErIhUUY5d2prrWLhSUvIoq1oHgF8qzx20SylWlfK/69jDeoAG+dqCZb7w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\diren\\OneDrive\\Bureaublad\\Jaar3\\SOA3\\CinemaApplication\\BioscoopCasus\\BioscoopCasus.csproj",
+  "projectFilePath": "C:\\CodeProjects\\CinemaApplication\\BioscoopCasus\\BioscoopCasus.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\diren\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+    "C:\\Users\\Justin\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
   ],
   "logs": []
 }
