@@ -33,6 +33,7 @@ namespace BioscoopCasus.Entities
             decimal sum = 0;
             bool isEven = true;
             bool isWeekDay = false;
+            
             foreach (MovieTicket movieTicket in MovieTickets) {
                 decimal price = movieTicket.GetPrice();
                 isWeekDay = IsWeekDay(movieTicket.GetDateAndtime());
@@ -68,10 +69,7 @@ namespace BioscoopCasus.Entities
                     break;
                 case TicketExportFormat.JSON:
                     string json = JsonConvert.SerializeObject(this);
-                    using (StreamWriter writer = new StreamWriter("../../../Files/JsonFile.json"))
-                    {
-                        await writer.WriteAsync(json);
-                    }
+                    using (StreamWriter writer = new StreamWriter("../../../Files/JsonFile.json")) await writer.WriteAsync(json);
                     break;
             }
         }
