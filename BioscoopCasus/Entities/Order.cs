@@ -71,7 +71,7 @@ namespace BioscoopCasus.Entities
                     break;
                 case TicketExportFormat.JSON:
                     string json = JsonConvert.SerializeObject(this);
-                    using (StreamWriter writer = new StreamWriter("../../../Files/JsonFile.json")) await writer.WriteAsync(json);
+                    using (writer = new StreamWriter("../../../Files/JsonFile.json")) await writer.WriteAsync(json);
                     break;
             }
         }
