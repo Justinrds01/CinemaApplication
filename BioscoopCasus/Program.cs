@@ -19,6 +19,5 @@ order.AddSeatReservation(ticket4);
 order.AddSeatReservation(ticket5);
 order.AddSeatReservation(ticket6);
 
-//Console.WriteLine(order.CalculatePrice());
 await order.Export(TicketExportFormat.PLAINTEXT);
 await order.Export(TicketExportFormat.JSON);
