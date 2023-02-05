@@ -4,8 +4,6 @@ namespace BioscoopTests
 {
     public class OrderTests
     {
-<<<<<<< Updated upstream
-=======
         // Path 1-2
         [Fact]
         public void Calculate_Price_Of_0_Tickets()
@@ -97,7 +95,6 @@ namespace BioscoopTests
 
 
         // path 1-3-4-6-9
->>>>>>> Stashed changes
         [Fact]
         public void Calculate_Price_Of_Six_Non_Premium_Seat_Student_On_Weekend()
         {
