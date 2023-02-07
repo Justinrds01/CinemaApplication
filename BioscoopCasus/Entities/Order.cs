@@ -39,8 +39,7 @@ namespace BioscoopCasus.Entities
                 isWeekDay = IsWeekDay(movieTicket.GetDateAndtime());
                 
                 if (movieTicket.IsPremiumTicket()) price += IsStudentOrder ? 2 : 3;
-                if (isEven && (IsStudentOrder || !isWeekDay)) price = 0;
-                
+                else if (isEven && (IsStudentOrder || !isWeekDay)) price = 0;
                 sum += price;
                 isEven = !isEven;
             }

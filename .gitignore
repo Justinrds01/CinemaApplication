@@ -401,4 +401,6 @@ FodyWeavers.xsd
 .vscode
 
 # Generated files
-**/Files/*
+**/Files/Plaintext.txt
+**/Files/JsonFile.json
+
