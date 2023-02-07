@@ -12,15 +12,15 @@ namespace BioscoopCasus.Entities
         [JsonProperty]
         private DateTime DateAndTime;
         [JsonProperty]
-        private double PricePerSeat { get; }
+        private decimal PricePerSeat { get; }
 
-        public MovieScreening(DateTime dateAndTime, double pricePerSeat)
+        public MovieScreening(DateTime dateAndTime, decimal pricePerSeat)
         {
             DateAndTime = dateAndTime;
             PricePerSeat = pricePerSeat;
         }
         
-        public double GetPricePerSeat()
+        public decimal GetPricePerSeat()
         {
             return PricePerSeat;
         }
