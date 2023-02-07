@@ -37,9 +37,8 @@ namespace BioscoopCasus.Entities
             foreach (MovieTicket movieTicket in MovieTickets) {
                 decimal price = movieTicket.GetPrice();
                 isWeekDay = IsWeekDay(movieTicket.GetDateAndtime());
-                
-                if (movieTicket.IsPremiumTicket()) price += IsStudentOrder ? 2 : 3;
-                else if (isEven && (IsStudentOrder || !isWeekDay)) price = 0;
+                if (isEven && (IsStudentOrder || !isWeekDay)) price = 0;
+                else if (movieTicket.IsPremiumTicket()) price += IsStudentOrder ? 2 : 3;
                 sum += price;
                 isEven = !isEven;
             }
