@@ -35,7 +35,8 @@ namespace BioscoopCasus.Entities
             return MovieScreening.GetPricePerSeat();
         }
 
-        public DateTime GetDateAndtime() {
+        public DateTime GetDateAndtime()
+        {
             return MovieScreening.GetDateTime();
         }
 
