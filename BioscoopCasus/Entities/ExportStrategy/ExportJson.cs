@@ -6,7 +6,7 @@ namespace BioscoopCasus.Entities.ExportStrategy
     {
         public async Task Export(Order order)
         {
-            string json = JsonConvert.SerializeObject(this);
+            string json = JsonConvert.SerializeObject(order);
             using (StreamWriter writer = new StreamWriter("../../../Files/JsonFile.json")) await writer.WriteAsync(json);
         }
     }

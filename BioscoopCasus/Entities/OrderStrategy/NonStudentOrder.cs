@@ -8,7 +8,7 @@ namespace BioscoopCasus.Entities.OrderStrategy
 {
     public class NonStudentOrder : IPriceBehaviour
     {
-        public decimal CalculatePrice(List<MovieTicket> MovieTickets)
+        public override decimal CalculatePrice(List<MovieTicket> MovieTickets)
         {
             decimal sum = 0;
 
@@ -24,10 +24,6 @@ namespace BioscoopCasus.Entities.OrderStrategy
                 sum *= 0.9m;
             }
             return sum;
-        }
-        private static bool IsWeekDay(DateTime dateAndTime)
-        {
-            return dateAndTime.DayOfWeek != DayOfWeek.Friday && dateAndTime.DayOfWeek != DayOfWeek.Saturday && dateAndTime.DayOfWeek != DayOfWeek.Sunday;
         }
     }
 }

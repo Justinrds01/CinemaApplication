@@ -23,7 +23,7 @@ namespace BioscoopTests
 
         // path 1-3-4-7-8
         [Fact]
-        public void Calculate_Price_Of_Two_Non_Premium_Seats_Non_Student_On_Week()
+        public void Calculate_Price_Of_Two_Non_Premium_Seats_Non_Student_On_Weekend()
         {
             // Arrange
             Movie movie = new("The Matrix");
@@ -98,7 +98,7 @@ namespace BioscoopTests
             decimal result = order.CalculatePrice();
             
             // Assert
-            Assert.Equal(20.0m, result);
+            Assert.Equal(10.0m, result);
         }
 
 
@@ -130,7 +130,7 @@ namespace BioscoopTests
             decimal result = order.CalculatePrice();
 
             // Assert
-            Assert.Equal(60.0m, result);
+            Assert.Equal(30.0m, result);
         }
 
         // path 1-3-5-6-9
@@ -163,7 +163,7 @@ namespace BioscoopTests
             decimal result = order.CalculatePrice();
 
             // Assert
-            Assert.Equal(72.0m, result);
+            Assert.Equal(36.0m, result);
         }
 
         // path 1-3-5-7-8
@@ -243,7 +243,7 @@ namespace BioscoopTests
             decimal result = order.CalculatePrice();
 
             // Assert
-            Assert.Equal(24.0m, result);
+            Assert.Equal(12.0m, result);
         }
     }
 }

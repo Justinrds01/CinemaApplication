@@ -6,8 +6,13 @@ using System.Threading.Tasks;
 
 namespace BioscoopCasus.Entities.OrderStrategy
 {
-    public interface IPriceBehaviour
+    public abstract class IPriceBehaviour
     {
-        public decimal CalculatePrice(List<MovieTicket> MovieTickets);
+        public abstract decimal CalculatePrice(List<MovieTicket> MovieTickets);
+
+        public bool IsWeekDay(DateTime dateAndTime)
+        {
+            return dateAndTime.DayOfWeek != DayOfWeek.Friday && dateAndTime.DayOfWeek != DayOfWeek.Saturday && dateAndTime.DayOfWeek != DayOfWeek.Sunday;
+        }
     }
 }
