@@ -19,7 +19,7 @@ namespace BioscoopCasus.Entities.OrderStrategy
                 sum += price;
             }
             
-            if (MovieTickets.Count >= 6 && !IsWeekDay(MovieTickets.First().GetDateAndtime()))
+            if (MovieTickets.Count >= 6 && !IsWeekDay(MovieTickets[0].GetDateAndtime()))
             {
                 sum *= 0.9m;
             }

@@ -13,7 +13,6 @@ MovieTicket ticket6 = new(1, 6, true, screening);
 
 movie.AddScreening(screening);
 
-//IPriceBehaviour priceBehaviour = new NonStudentOrder();
 IPriceBehaviour priceBehaviour = new StudentOrder();
 Order order = new(1, priceBehaviour);
 

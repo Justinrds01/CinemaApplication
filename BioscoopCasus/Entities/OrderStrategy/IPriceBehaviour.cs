@@ -10,7 +10,7 @@ namespace BioscoopCasus.Entities.OrderStrategy
     {
         public abstract decimal CalculatePrice(List<MovieTicket> MovieTickets);
 
-        public bool IsWeekDay(DateTime dateAndTime)
+        public static bool IsWeekDay(DateTime dateAndTime)
         {
             return dateAndTime.DayOfWeek != DayOfWeek.Friday && dateAndTime.DayOfWeek != DayOfWeek.Saturday && dateAndTime.DayOfWeek != DayOfWeek.Sunday;
         }
